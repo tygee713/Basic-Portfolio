@@ -100,8 +100,12 @@ small {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    color: #777777;
+    color: #cccccc;
     /*line-height: 20px;*/
+}
+
+#nav-bar li a:hover {
+	color: #777777;
 }
 
 #nav-bar li+li { 
@@ -160,7 +164,8 @@ small {
 
 .text-input {
 	width: 100%;
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin-bottom: 20px;
 }
 
@@ -171,6 +176,7 @@ small {
 #text-box {
 	height: 200px;
 }
+
 #submit-button {
 	background-color: #4aaaa5;
 	border: none;
@@ -184,5 +190,8 @@ small {
 	border: 2px solid #cccccc;
 }
 
+input.text-input {
+	width: 582px;
+} /*to account for box model*/
 
 
