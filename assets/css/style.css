@@ -117,18 +117,9 @@ small {
     display: inline;
 }
 
-#media-buttons li a{
-
-}
-
-#media-buttons li:not(:last-child) {
-	padding-right:10px;
+#media-buttons li:not(:first-child) {
+	padding-left:10px;
 } /*allows the last media button to stick to the right*/
-
-#last-image {
-	padding-right: none;
-}
-/*Doesn't work*/
 
 #my-image {
 	height: 30%;
@@ -138,7 +129,7 @@ small {
 }
 
 #main-content {
-	width: 578px;
+	width: 588px;
 	float: left;
 	background-color: #ffffff;
 	padding: 30px;
@@ -147,7 +138,7 @@ small {
 }
 
 #contact-me {
-	width: 218px;
+	width: 208px;
 	float: left;
 	background-color: #ffffff;
 	padding: 30px;
