@@ -1,6 +1,8 @@
+/*Main attributes*/
+
 header, body, footer{
 	width: 100%;
-}
+} 
 
 body {
 	background-image: url("../images/squairy_light.png"); 
@@ -25,11 +27,11 @@ footer {
 
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 }
 
 h1 {
 	font-size: 26px;
-	font-weight: bold;
 	display: inline-block;
 	background-color: #4aaaa5;
 	color: white;
@@ -40,7 +42,6 @@ h1 {
 
 h2 {
 	font-size: 24px;
-	font-weight: bold;
 	color: #4aaaa5;
 	padding-bottom: 30px;
 	padding-top: 10px;
@@ -49,7 +50,6 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	font-weight: bold;
 	color: #4aaaa5;
 	padding-bottom: 25px;
 	border-bottom: 2px solid #dddddd;
@@ -62,18 +62,22 @@ small {
 	line-height: 90px;
 }
 
+
+
+/*Classes and IDs*/
+
 .content {
 	width: 960px;
 	position: relative;
 	left: 150px;
 	overflow: auto;
 	clear: both;
-}
+} /*sets width for all content to be used in header, main, footer*/
 
 .icon {
 	width: 62px;
 	height: 62px;
-}
+} /*changes height and weight for the social media icons, could be replaced by edited pictures*/
 
 #footer-content {
 	text-align: center;
@@ -90,18 +94,17 @@ small {
     float: left;
     display: inline;
     padding-left: 20px;
-}
+} /*allows navigation bar to go horizontally*/
 
 #nav-bar li:not(:last-child) {
 	padding-right:20px;
-} /*allows the last element in nav bar to stick to the right*/
+} /*allows the last element in nav bar to not have extra space on its right*/
 
 #nav-bar li a {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     color: #cccccc;
-    /*line-height: 20px;*/
 }
 
 #nav-bar li a:hover {
@@ -110,7 +113,7 @@ small {
 
 #nav-bar li+li { 
 	border-left: 1px solid #dddddd; 
-}
+} /*puts a divider line in the nav bar only on items that go after a previous item*/
 
 #media-buttons {
 	margin-top: 23px;
@@ -123,7 +126,7 @@ small {
 
 #media-buttons li:not(:first-child) {
 	padding-left:10px;
-} /*allows the last media button to stick to the right*/
+} /*allows the last media button to not have extra space on its right*/
 
 #my-image {
 	height: 30%;
@@ -139,7 +142,7 @@ small {
 	padding: 30px;
 	margin-right: 40px;
 	border: 1px solid #dddddd;
-}
+} /*width accounts for box model*/
 
 #contact-me {
 	width: 208px;
@@ -147,7 +150,7 @@ small {
 	background-color: #ffffff;
 	padding: 30px;
 	border: 1px solid #dddddd;
-}
+} /*width accounts for box model*/
 
 #contact-me li {
 	display: block;
@@ -193,5 +196,41 @@ small {
 input.text-input {
 	width: 582px;
 } /*to account for box model*/
+
+#images {
+	margin-top: 40px;
+}
+
+#images img {
+	width: 271px;
+}
+
+.left-image {
+	float: left;
+	position: relative;
+	margin-bottom: 55px;
+}
+.right-image {
+	float: right;
+	position: relative;
+	margin-bottom: 55px;
+}
+.last-image {
+	float: left;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.caption {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	height: 60px;
+	background-color: #4aaaa5;
+	color: white;
+	opacity: 0.8;
+	line-height: 60px;
+} /*formats the text that goes over all portfolio images*/
 
 
