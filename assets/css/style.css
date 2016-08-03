@@ -1,0 +1,96 @@
+header, body, footer{
+	width: 100%;
+}
+
+body {
+	/*background-image: "assets/images/squairy-light.png"; */
+	background-color: yellow;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	height: 70px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+
+footer {
+	float: left;
+	background-color: grey;
+	border-top: 5px solid #4aaaa5;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+small {
+	text-align: center;
+	font-size: 10px;
+}
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content {
+	width: 960px;
+	margin-left: 90px;
+	overflow: auto;
+	clear: both;
+}
+
+#my-name {
+	display: inline-block;
+	background-color: #4aaaa5;
+	/*float: left;*/
+	color: white;
+	line-height: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#nav-bar {
+	display: inline-block;
+	float: right;
+	color: grey;
+	line-height: 70px;
+}
+
+#my-image {
+	height: 30%;
+	width: 30%;
+}
+
+#main-content {
+	width: 600px;
+	float: left;
+	background-color: skyblue;
+	padding: 25px;
+}
+
+#contact-me {
+	width: 220px;
+	float: left;
+	background-color: pink;
+	padding: 25px;
+}
+
+
+
